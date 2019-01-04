@@ -1,9 +1,9 @@
 {
-  "id": "liferay",
-  "image": "wedeploy/liferay:7.1.0-ga1-1.4",
-  "memory": 4096,
+  "id": "life",
   "cpu": 3,
-  "dependencies": ["db", "es"],
+  "memory": 3072,
+  "image": "wedeploy/liferay:7.1.0-ga1-1.4",
+  "dependencies": ["db"],
   "volumes": {
     "data": "/opt/liferay/data"
   }
